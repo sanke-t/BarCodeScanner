@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="#ff0c00ff">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/metaTextView"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textColor="#fffffbfb" />
+    <Button
+        android:id="@+id/scan_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SCAN"
+            android:paddingBottom="10dp"
+            android:onClick="scanNow"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#fff4fff9"
+        android:layout_below="@+id/metaTextView"
+        android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_gravity="center"
+            android:textColor="#fff4fff9"
+            android:id="@+id/view_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PROCEED"
+            android:onClick="show"
+            android:gravity="center"
+            android:layout_below="@+id/scan_Button"
+            android:layout_alignLeft="@+id/scan_Button"
+            android:layout_alignStart="@+id/scan_Button" />
+    </RelativeLayout>
+
+
+

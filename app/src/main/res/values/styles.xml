@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <color name="white_opaque">#FF013468</color>
+    <color name="pitch_black">#FF3469FF</color>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat">
+        <item name="android:background">@color/white_opaque</item>
+        <item name="android:windowBackground">@color/white_opaque</item>
+        <item name="android:colorBackground">@color/white_opaque</item>
+
+    </style>
+
+
+</resources>
